@@ -41,6 +41,7 @@ const resizeCanvas = () => {
   height = window.innerHeight;
   canvas.width = width;
   canvas.height = height;
+  ctx.shadowBlur = 50; 
 };
 
 const keyUp = (e) => {
