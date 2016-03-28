@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style>
+		body {
+		  overflow: hidden;
+		}
+
+		canvas {
+			top: 0;
+			margin-left: 0;
+			bottom: 0;
+			right: 0;
+			position: absolute;
+			width: 100%;
+			background: #222222;
+		}
+
+		.info {
+		    font-family: monospace;
+    		font-size: 18px;
+			position: absolute;
+			z-index: 2;
+			text-align: right;
+			width: 400px;
+			bottom: 0;
+			right: 0;
+			padding: 20px;
+			color: #ecf0f1;
+			line-height: 1.6em;
+			text-shadow: 2px 2px #2c3e50;
+		}
+		a:visited {
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div class="info">
+		<label for="rainbow"><input type="checkbox" name="rainbow" id="rainbow" checked /> Rainbow mode</label><br>
+		<label for="startplacement"><input type="checkbox" name="startplacement" id="startplacement" /> Randomize start placement</label><br><br>
+		Inspired by <a href="http://imgur.com/owqRfVV" target="_blank">http://imgur.com/owqRfVV</a>. Start typing and your letters will bounce around!  A pen by <a href="https://twitter.com/KarlSolgard" target="_blank">Karl Solgård</a>.
+	</div>
+	<canvas></canvas>
+	<script src="bundle.js"></script>
+</body>
+</html>

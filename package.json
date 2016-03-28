@@ -1,0 +1,25 @@
+{
+  "name": "keyboardgravity",
+  "version": "1.0.0",
+  "description": "Type letters and let them fly away.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gravity",
+    "canvas"
+  ],
+  "author": "karl@karlsolgard.net",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-sourcemaps": "1.6.0",
+    "browserify": "13.0.0",
+    "vinyl-source-stream": "1.1.0",
+    "vinyl-buffer": "1.0.0",
+    "babel-preset-es2015": "6.3.13",
+    "babelify": "7.2.0",
+    "watchify": "3.7.0"
+  }
+}
